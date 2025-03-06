@@ -43,6 +43,7 @@ export const ProfilePage = () => {
                 console.error('Error fetching access token:', error);
                 alert('There was an error fetching the access token. Please try again.');
             });
+            // eslint-disable-next-line
     }, []);
 
     const searchForAlbums = async (query = searchAlbumInput, token = accessToken) => {
@@ -114,6 +115,7 @@ export const ProfilePage = () => {
         };
     
         checkFavAlbums();
+        // eslint-disable-next-line
     }, [username, accessToken]);
     
     const handleAlbumSelection = (albumID, albumName) => {

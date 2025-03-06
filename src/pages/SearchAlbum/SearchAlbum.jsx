@@ -33,6 +33,7 @@ export const SearchAlbumPage = () => {
                 console.error('Error fetching access token:', error);
                 alert('There was an error fetching the access token. Please try again.');
             });
+            // eslint-disable-next-line
     }, []);
 
     const searchForAlbums = async (query = searchAlbumInput, token = accessToken) => {

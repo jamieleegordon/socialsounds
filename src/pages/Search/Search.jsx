@@ -30,6 +30,7 @@ export const SearchPage = () => {
                 console.error('Error fetching access token:', error);
                 alert('There was an error fetching the access token. Please try again.');
             });
+            // eslint-disable-next-line
     }, []);
 
     const searchArtist = async (query = searchArtistInput, token = accessToken) => {
