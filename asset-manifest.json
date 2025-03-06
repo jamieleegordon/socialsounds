@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/socialsounds/static/css/main.1e5995a6.css",
+    "main.js": "/socialsounds/static/js/main.761c4dac.js",
+    "index.html": "/socialsounds/index.html",
+    "main.1e5995a6.css.map": "/socialsounds/static/css/main.1e5995a6.css.map",
+    "main.761c4dac.js.map": "/socialsounds/static/js/main.761c4dac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e5995a6.css",
+    "static/js/main.761c4dac.js"
+  ]
+}
